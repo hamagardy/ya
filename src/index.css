@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 /* Custom Utility Classes */
-
 /* Global Styles */
 body {
   @apply bg-slate-50 text-slate-900 font-sans leading-relaxed antialiased;
@@ -40,12 +39,15 @@ button:hover {
   @apply shadow-lg transform scale-105;
 }
 
+/* Remove this problematic section
 .bg-green-500 {
   @apply bg-green-500;
 }
+*/
 
-.bg-green-500:hover {
-  @apply bg-green-600;
+/* Instead, if you want to customize the hover state, use this: */
+.custom-green-button {
+  @apply bg-green-500 hover:bg-green-600;
 }
 
 /* Table Styles */
