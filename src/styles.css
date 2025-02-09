@@ -40,20 +40,13 @@ button:hover {
   @apply shadow-lg transform scale-105;
 }
 
-.bg-blue-500 {
-  @apply bg-blue-500;
+/* Custom Button Styles */
+.custom-blue-btn {
+  @apply bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md;
 }
 
-.bg-blue-500:hover {
-  @apply bg-blue-600;
-}
-
-.bg-green-500 {
-  @apply bg-green-500;
-}
-
-.bg-green-500:hover {
-  @apply bg-green-600;
+.custom-green-btn {
+  @apply bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md;
 }
 
 /* Table Styles */
